@@ -2,6 +2,8 @@
 
 [![sampctl](https://img.shields.io/badge/sampctl-eSelection-2f2f2f.svg?style=for-the-badge)](https://github.com/TommyB123/eSelection)
 
+> **Note:** This is an updated version of [TommyB's eSelection library](https://github.com/TommyB123/eSelection) which supports [Open MP](https://www.open.mp/).
+
 This library adds the ability to create dynamic model selection menus in your SA-MP gamemodes. It's an edit of the original eSelection include created by the developers of the Interactive Roleplay SA-MP server back in 2013. I've been using it in my own server for many years and made countless adjustments, fixes, optimizations and feature changes to it. After a bit of consideration, I decided to open source the changes I've made.
 
 This edit (well, it's closer to a rewrite) makes use of dynamic PawnPlus containers, adds in an improved API, descriptive text per model preview and also adds the ability to call task-based menu responses, which will be demonstrated below.
